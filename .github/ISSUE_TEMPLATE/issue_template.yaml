@@ -1,8 +1,8 @@
-name: Bug report
-description: Create a bug report to help us improve Plane
-title: "[bug]: "
-labels: [🐛bug]
-assignees: [srinivaspendem, pushya22]
+name: Reporte de bug
+description: Creación de un reporte de bug para ayudarnos a mejorar nuestro software.
+title: "[Bug]: "
+labels: [🐛Bug]
+#assignees: [joseatrejos, claudiobo]
 body:
 - type: markdown
   attributes:
