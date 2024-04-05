@@ -91,11 +91,3 @@ body:
       Usuario y roles.
   validations:
     required: true
-- type: datetime
-  attributes:
-    label: Fecha de ejecución de la prueba 
-    description: Fecha exacta en la que se realizó la prueba
-    placeholder: |
-      Fecha
-  validations:
-    required: true
