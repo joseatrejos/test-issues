@@ -8,14 +8,6 @@ body:
   attributes:
     value: |
       Agradecemos de antemano su tiempo invertido para llenar este reporte.
-- type: date
-  attributes:
-    label: Fecha de ejecución de la prueba 
-    description: Fecha exacta en la que se realizó la prueba
-    placeholder: |
-      Fecha
-  validations:
-    required: true
 - type: textarea
   attributes:
     label: Descripción del error 
