@@ -1,32 +1,58 @@
-### Fecha de ejecución de la prueba
-[Fecha]
+---
+name: Reporte de BUG
+about: Reporte de BUG
+title: "[BUG]"
+labels: bug
+assignees: ''
 
-### Prueba
-[Aceptada / Rechazada]
+---
 
-### Descripción del error
-[Describe brevemente el error encontrado]
+**Fecha de ejecución de la prueba**
+Fecha
 
-### Comportamiento esperado
-[Explica cuál era el resultado esperado]
+**Descripción del error**
+Una descripción concisa de cuál es el bug
 
-### Mensaje de error
+**Para reproducirlo**
+Pasos para replicar el error:
+1. Ir a '...'
+2. Click en '....'
+3. Scroll down en '....'
+4. error
+
+**Comportamiento esperado**
+Una descripción clara y concisa de qué esperas que pase.
+
+**Mensaje de error**
 [Si hay algún mensaje de error, copia y pega aquí]
 
-### Credenciales de usuario y/o rol
-[Proporciona las credenciales de usuario y/o el rol utilizado durante la prueba]
+**Screenshots**
+Si aplican, deberán adjuntarse capturas de pantalla que muestren error.
 
-### Enlace de la página donde se presentó el error
-[URL de la página donde ocurrió el error]
+**Entorno**
+ - Entorno de desarrollo.
+ - Entorno de staging.
+ - Entorno de producción.
 
-### Pasos para replicar el error
-1. [Paso 1]
-2. [Paso 2]
-3. [Paso 3]
-   ...
+**Versión**
+Versión del sistema.
 
-### Capturas de pantalla del error
-[Adjunta capturas de pantalla que muestren el error]
+**Rol y/o usuario***
+Si aplica, rol y/o usuario con el que se produce el error.
 
-### Navegador utilizado
-[Nombre y versión del navegador utilizado durante la prueba]
+**Credenciales de usuario y/o rol**
+De ser posible, proporcionar las credenciales de usuario y/o el rol utilizado durante la prueba.
+
+**Enlace de la página donde se presentó el error**
+URL de la página donde ocurrió el error
+
+**Navegador utilizado**
+ - Chrome
+ - Firefox.
+ - Opera.
+ - Microsoft Edge.
+ - Safari.
+ - Otro.
+
+**Contexto adicional**
+Añade otra información adicional que creas relevante para este bug aquí.
