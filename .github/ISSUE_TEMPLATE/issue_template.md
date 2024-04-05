@@ -46,13 +46,17 @@ De ser posible, proporcionar las credenciales de usuario y/o el rol utilizado du
 **Enlace de la página donde se presentó el error**
 URL de la página donde ocurrió el error
 
-**Navegador utilizado**
- - Chrome
- - Firefox.
- - Opera.
- - Microsoft Edge.
- - Safari.
- - Otro.
+- type: dropdown
+  id: navegador
+  attributes:
+    label: Navegador
+    options:
+      - Google Chrome
+      - Mozilla Firefox
+      - Safari
+      - Opera.
+      - Microsoft Edge.
+      - Otro
 
 **Contexto adicional**
 Añade otra información adicional que creas relevante para este bug aquí.
