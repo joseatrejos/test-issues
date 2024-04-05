@@ -26,13 +26,13 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: Para reproducirlo
-    description: Pasos para replicar el error, con imágenes en caso de considerarse necesario.
+    label: Pasos para replicar el error
+    description: Pasos exactos para reproducir el error, con imágenes en caso de considerarse necesario.
     placeholder: |
       1. Ir a '...'
       2. Click en '....'
       3. Scroll down en '....'
-      4. error
+      4. Error
   validations:
     required: true
 - type: textarea
@@ -99,3 +99,11 @@ body:
       Usuario y roles.
   validations:
     required: true
+- type: textarea
+  attributes:
+    label: Contexto adicional
+    description: Contexto adicional que se considere necesario para la comprensión del error.
+    placeholder: |
+      Contexto adicional.
+  validations:
+    required: false
