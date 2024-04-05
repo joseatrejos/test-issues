@@ -7,42 +7,66 @@ body:
 - type: markdown
   attributes:
     value: |
-      Thank you for taking the time to fill out this bug report.
-- type: checkboxes
+      Agradecemos de antemano su tiempo invertido para llenar este reporte.
+- type: date
   attributes:
-    label: Is there an existing issue for this?
-    description: Please search to see if an issue already exists for the bug you encountered
-    options:
-    - label: I have searched the existing issues
-      required: true
-- type: textarea
-  attributes:
-    label: Current behavior
-    description: A concise description of what you're experiencing and what you expect
+    label: Fecha de ejecución de la prueba 
+    description: Fecha exacta en la que se realizó la prueba
     placeholder: |
-      When I do <X>, <Y> happens and I see the error message attached below:
-      ```...```
-      What I expect is <Z>
+      Fecha
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Steps to reproduce
-    description: Add steps to reproduce this behaviour, include console or network logs and screenshots
+    label: Descripción del error 
+    description: Una descripción concisa de lo que se experimentó durante la prueba.
     placeholder: |
-      1. Go to '...'
-      2. Click on '....'
-      3. Scroll down to '....'
-      4. See error
+      Cuando hago <X>, sucede <Y>
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Para reproducirlo
+    description: Pasos para replicar el error, con imágenes en caso de considerarse necesario.
+    placeholder: |
+      1. Ir a '...'
+      2. Click en '....'
+      3. Scroll down en '....'
+      4. error
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Mensaje de error
+    description: El mensaje de error observado en el sistema si aplica.
+    placeholder: |
+      Mensaje de error
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Enlace de la página donde se presentó el error
+    description: Enlace de la página donde se presentó el error, si aplica.
+    placeholder: |
+      Enlace
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Comportamiento esperado
+    description: Una descripción concisa del comportamiento que se esperaba del sistema.
+    placeholder: |
+      Lo que espero que suceda es <Z>
   validations:
     required: true
 - type: dropdown
-  id: env
+  id: entorno
   attributes:
-    label: Environment
+    label: Entorno
     options:
-      - Production
-      - Deploy preview
+      - Entorno de desarrollo
+      - Entorno de Staging/UAT/Pruebas
+      - Entorno productivo
   validations:
     required: true
 - type: dropdown
@@ -53,14 +77,24 @@ body:
       - Google Chrome
       - Mozilla Firefox
       - Safari
-      - Other
-- type: dropdown
+      - Opera.
+      - Microsoft Edge.
+      - Otro.
+- type: textarea
   id: version
   attributes:
     label: Version
-    options:
-      - Cloud
-      - Self-hosted
-      - Local
+    placeholder: |
+      Versión del sistema.
   validations:
     required: true
+- type: textarea
+  id: user
+  attributes:
+    label: Usuario y roles
+    description: Usuario con el que se realizó la prueba y roles con los que cuenta dicho usuario.
+    placeholder: |
+      Usuario y roles.
+  validations:
+    required: true
+
