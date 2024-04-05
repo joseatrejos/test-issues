@@ -1,21 +1,20 @@
----
-name: Reporte de bug
-description: Creación de un reporte de bug para mejorar nuestros software
-about: Reporte de bug para Issirmax
-title: "[Bug]"
-labels: bug
+name: Bug report
+description: Create a bug report to help us improve Plane
+title: "[bug]: "
 labels: [🐛bug]
-#assignees: [srinivaspendem, pushya22]
+assignees: [srinivaspendem, pushya22]
 body:
 - type: markdown
   attributes:
     value: |
       Thank you for taking the time to fill out this bug report.
-- type: date
+- type: checkboxes
   attributes:
-    label: Fecha de ejecución de la prueba
-    description: Fecha de ejecución de la prueba
-    placeholder: Fecha
+    label: Is there an existing issue for this?
+    description: Please search to see if an issue already exists for the bug you encountered
+    options:
+    - label: I have searched the existing issues
+      required: true
 - type: textarea
   attributes:
     label: Current behavior
