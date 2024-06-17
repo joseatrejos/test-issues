@@ -1,0 +1,36 @@
+name: Solicitud de requerimiento
+description: Alta de solicitud para un ajuste menor o un nuevo requerimiento menor.
+title: "[Solicitud menor]: "
+labels: [🤝🏻Request]
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      Agradecemos de antemano su tiempo invertido para llenar esta solicitud.
+
+- type: textarea
+  attributes:
+    label: Descripción de la solicitud 
+    description: Solicitud de desarrollo que se requiere
+    placeholder: |
+      Descripción de la solicitud
+  validations:
+    required: true
+
+- type: textarea
+  id: user
+  attributes:
+    label: Usuarios involucrados
+    description: Usuarios que realizarán cada acción.
+    placeholder: |
+      Usuarios y acciones de cada uno.
+
+- type: textarea
+  attributes:
+    label: Contexto adicional
+    description: Contexto adicional que se considere necesario para la comprensión del error.
+    placeholder: |
+      Contexto adicional.
+  validations:
+    required: false
