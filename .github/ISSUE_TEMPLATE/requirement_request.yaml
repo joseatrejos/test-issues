@@ -14,7 +14,7 @@ body:
     label: Descripción de la solicitud 
     description: Solicitud de desarrollo que se requiere
     placeholder: |
-      Descripción de la solicitud
+      Descripción de la solicitud.
   validations:
     required: true
 
